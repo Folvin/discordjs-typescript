@@ -1,0 +1,16 @@
+{
+  "name": "discordjs-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node deleteBuild.js && npx tsc && node .",
+    "deploy": "build/deployCommands.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.12.1"
+  }
+}
