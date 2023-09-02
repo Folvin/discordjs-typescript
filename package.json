@@ -5,7 +5,8 @@
   "main": "build/index.js",
   "scripts": {
     "start": "node deleteBuild.js && npx tsc && node .",
-    "deploy": "build/deployCommands.js"
+    "deploy": "node build/deployGuildCommands.js",
+    "deploy-global": "node build/deployCommands.js"
   },
   "keywords": [],
   "author": "",

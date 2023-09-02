@@ -37,10 +37,11 @@ if you don't see any slash command try to run this command
 
 npm run deploy
 
-this will basically execute a file called deployCommands.js that will just deploy all your slash commands to the discord client, make sure the build directory is present before running this
+this will basically execute a file called deployGuildCommands.js that will just deploy all your slash commands to the discord client, make sure the build directory is present before running this
 
-little disclaimer: the file is using the applicationGuildCommand fucntion so it will just update the commands in a single server, if you want to update the command in all server your bot is you need to change this to another function, it's in line 37.
+little disclaimer: the file is using the applicationGuildCommand function so it will just update the commands in a single server, if you want to deploy commands in all servers your bot is, you need to do npm run deploy-global.
 
 # list of npm script commands
 - npm start
 - npm run deploy
+- npm run deploy-global
