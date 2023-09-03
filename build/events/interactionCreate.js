@@ -43,6 +43,7 @@ exports.event = {
                     return;
                 }
                 try {
+                    yield command.autocomplete(interaction);
                 }
                 catch (error) {
                     console.error(error);

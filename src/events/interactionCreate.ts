@@ -32,6 +32,7 @@ export const event = {
       }
 
       try {
+        await command.autocomplete(interaction);
       } catch (error) {
         console.error(error);
       }
